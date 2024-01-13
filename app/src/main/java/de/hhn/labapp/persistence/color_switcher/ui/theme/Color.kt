@@ -1,4 +1,4 @@
-package de.hhn.labor.color_switcher.ui.theme
+package de.hhn.labapp.persistence.color_switcher.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

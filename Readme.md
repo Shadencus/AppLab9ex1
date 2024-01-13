@@ -2,34 +2,36 @@
 
 # Exercise 1
 
-Thanks for cloning this repository.
+Welcome to the first exercise. This exercise is about the EncryptedSharedPreferences.
 
-We decided to provide the repositories for the exercises upfront so you can clone them before the lecture and have them ready to go. Also this way we hope to reduce the network traffic during the lecture.
+## Prerequisites
 
-This branch will remain empty. The base code for this exercise will be provided during the lecture.
+You should have already set up this project in the `setup` branch.
 
-After checking out the branch during the lecture you can revisit this ReadMe for the assignment.
+If you have already set up the project, please pull the `assignment` branch to get the base code for this exercise.
 
-## What's to do for now?
+If you have not, please pull the `assignment` branch directly. For troubleshooting please refer to the ReadMe in the `setup` branch.
 
-1. Clone this repository to your local machine
-2. Sync the project with Gradle
-3. Resolve any issues that might occur with your project setup, see the [Troubleshooting](#troubleshooting) section below
-4. Run the app on your device or emulator: You should see a simple info screen.
-5. Stay tuned for our upcoming lecture!
+## Provided Code
 
-## Troubleshooting
+The provided code contains a simple app with a single view of a colored background. By tapping anywhere on the screen, the background color will change to a random color.
 
-### Android Studio version
+## Assignment
 
-Make sure to update your Android Studio to the latest version. Especially if you get an error regarding the Android Gradle Plugin (AGP) version.
+- Save the current color in the _Shared Preferences_.
+- The color should be stored encrypted. Use _Encrypted Shared Preferences_ for this.
+- When the app is restarted, the color should be restored.
 
-### Module Errors
+## Grading
 
-If Android Studio/IntelliJ does not recognize the android app module you could try to delete the `.idea` folder and reopen the project (which will recreate the `.idea` folder).
+| Task                             | Points |
+| -------------------------------- | ------ |
+| Saving **and** loading the color | 0.5    |
+| Storing the color encrypted      | 0.5    |
+| _Total_                          | 1.0    |
 
-Also make sure that you open the project in it's root directory (the directory containing the `.git` directory and this `Readme.md` file).
+## Submission
 
-### It still doesn't work
+Submit your solution by zipping the project folder and uploading it under _"Aufgabe 9 Persistenz & Datenbankanbindung"_ in the Ilias mailbox as _"ex1.vorname.nachname.zip"_
 
-If you have tried the steps above and still have issues with the project setup, please contact us per email or at the start of the lecture.
+The assignment is due on **Thursday, 16.01.2024 at 15:00**. Later submissions will not be graded and receive 0 points.
